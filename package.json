@@ -1,0 +1,27 @@
+{
+  "name": "base-js-files",
+  "version": "1.0.0",
+  "description": "Manage all JS files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-src-js": "webpack --optimize-minimize --config ./webpack.config.js",
+    "build-src-js-dev": "webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heysaurabh/base-js-files.git"
+  },
+  "author": "Saurabh Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heysaurabh/base-js-files/issues"
+  },
+  "homepage": "https://github.com/heysaurabh/base-js-files#readme",
+  "devDependencies": {
+    "ts-loader": "^7.0.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
