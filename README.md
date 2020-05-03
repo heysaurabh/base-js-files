@@ -7,6 +7,9 @@ To build and run this app locally you will need a few things:
 
 
 # Getting started
+
+Install Github Desktop
+- Install [Github Desktop](https://desktop.github.com/)
 - Clone the repository
 ```
 git clone --depth=1 https://github.com/heysaurabh/base-js-files.git <project_name>
